@@ -30,15 +30,18 @@ export const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/" className="hover:text-blue-600">
-          My Ecommerce
+          Joana Seabra
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link href="/">Home</Link>
-          <Link href="/products" className="hover:text-blue-600">
-            Products
+
+          <Link href="/artworks" className="hover:text-blue-600">
+            artworks
           </Link>
-          <Link href="/checkout" className="hover:text-blue-600">
-            Checkout
+          <Link href="/about" className="hover:text-blue-600">
+            about
+          </Link>
+          <Link href="/getintouch" className="hover:text-blue-600">
+            get in touch
           </Link>
         </div>
         <div className="flex items-center space-x-4">
@@ -67,18 +70,18 @@ export const Navbar = () => {
         <nav className="md:hidden bg-white shadow-md">
           <ul className="flex flex-col p-4 space-y-2">
             <li>
-              <Link href="/" className="block hover:text-blue-600">
-                Home
+              <Link href="/artworks" className="block hover:text-blue-600">
+                artworks
               </Link>
             </li>
             <li>
-              <Link href="/products" className="block hover:text-blue-600">
-                Products
+              <Link href="/getintouch" className="block hover:text-blue-600">
+                get in touch
               </Link>
             </li>
             <li>
-              <Link href="/checkout" className="block hover:text-blue-600">
-                Checkout
+              <Link href="/about" className="block hover:text-blue-600">
+                about
               </Link>
             </li>
           </ul>
