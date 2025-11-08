@@ -15,7 +15,7 @@ export default function SuccessPage() {
           <p className="mb-4">
             Joana is doing little jumps of happiness right now!
           </p>
-          <Link href="/products" className="text-blue-600 hover:underline">
+          <Link href="/artworks" className="text-blue-600 hover:underline">
             Continue Shopping
           </Link>
         </div>

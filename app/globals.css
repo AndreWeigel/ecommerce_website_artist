@@ -47,7 +47,17 @@
   body {
     @apply bg-[rgb(var(--color-background))] text-[rgb(var(--color-foreground))];
   }
+  a:hover,
+  button:hover,
+  [role="button"]:hover {
+    @apply text-rose-300;
+  }
+
 }
+@layer utilities {
+  [role="menuitem"][data-highlighted] {
+    @apply !bg-transparent !text-rose-300;
+  }}
 
 :root {
   --background: oklch(1 0 0);
