@@ -18,15 +18,14 @@ export const metadata: Metadata = {
   description: "Joana Seabra artist page",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="flex min-h-full flex-col bg-white">
-        <Navbar/>
+
+      <body className="flex min-h-screen flex-col bg-white">
+        <Navbar />
+
+        {/* keep the container; the home page will bypass it via fixed layers */}
         <main className="flex-grow container mx-auto px-4 py-8">
           {children}
         </main>

@@ -22,7 +22,7 @@ export default function AboutPage() {
             About the Artist
           </h1>
           <p className="mt-2 max-w-2xl text-muted-foreground">
-            A concise bio, artist statement, and highlights—ready for press, galleries, and collaborators.
+            i paint people because they won’t stop living inside me.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-sm ring-1 ring-border">
             {/* Replace with your own portrait image */}
             <Image
-              src="/joana_portrait.png"
+              src="/joana_portrait.jpg"
               alt="Artist portrait"
               fill
               className="object-cover"
@@ -85,12 +85,10 @@ export default function AboutPage() {
             <CardContent className="p-0 pt-3 text-base leading-relaxed text-muted-foreground">
               <p>
                 {/* Swap with your real bio (80–120 words). Keep it crisp for curators and press. */}
-                <strong>Your Name</strong> (b. City, Country) is a contemporary artist whose
-                practice explores memory, material, and the social life of images. Working across
-                painting and installation, their recent projects investigate the tension between
-                craft and computation, blending hand-made gestures with algorithmic processes.
-                They have exhibited internationally and led community workshops focused on
-                accessible making.
+                <strong>joana seabra</strong> born in porto, she learned early that colors have tempers and silence has a pulse.
+                she paints people, fruit, forgotten rooms — everything that insists on feeling too much.
+                she studied the brain in berlin, trying to understand why hearts behave like storms.
+                now she paints and draws stories, between science and tenderness, where thought becomes flesh and memory hums.
               </p>
             </CardContent>
           </Card>
@@ -101,11 +99,10 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="p-0 pt-3 text-base leading-relaxed text-muted-foreground">
               <p>
-                My work traces how images accumulate meaning as they move through time and
-                technology. I layer archival fragments with everyday textures to build spaces that
-                feel both intimate and public. The studio is a site of translation: pigment to pixel,
-                gesture to dataset, intuition to system. Each piece invites a slower looking—an
-                invitation to notice seams, edges, and the intervals between things.
+                i don’t paint what i see, i paint what insists. a hand trembling in the air, a face that won’t leave, a fruit that almost sings.
+                the colors are never quiet — they argue, they love, they survive.
+                i want my paintings to breathe like a confession and bite like a dream.
+                lately, i draw comics too, as if the brain were whispering to the paint: tell me another story.
               </p>
             </CardContent>
           </Card>

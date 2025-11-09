@@ -37,7 +37,14 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow">
+    <nav
+        className="sticky top-0 z-60 bg-white/20 backdrop-blur-sm shadow"
+        style={{
+            backgroundImage: `url('/textures/axiom-pattern.png')`,
+            backgroundSize: 'cover',
+            backgroundBlendMode: 'overlay',
+          }}
+    >
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/">
           Joana Seabra
