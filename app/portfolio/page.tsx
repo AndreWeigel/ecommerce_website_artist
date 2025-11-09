@@ -10,6 +10,7 @@ export default function CreationsPage() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-16">
       {/* Header */}
+
       <motion.header
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}

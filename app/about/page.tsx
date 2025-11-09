@@ -6,10 +6,23 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Instagram, Globe, Download } from "lucide-react";
+import RandomBackground from "@/components/random-background";
 
 export default function AboutPage() {
+  const pome = "/pomegranate.png";
   return (
+
     <main className="mx-auto max-w-5xl px-6 py-16">
+      <div className="absolute inset-0 -z-10">
+        <RandomBackground
+          gifUrl={pome}
+          count={50}
+          floating={true}
+          minSize={8}
+          maxSize={30}
+        />
+      </div>
+
       {/* Header */}
       <motion.header
         initial={{ opacity: 0, y: 16 }}

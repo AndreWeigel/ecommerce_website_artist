@@ -1,4 +1,5 @@
 import { stripe } from "@/lib/stripe";
+import RandomBackground from "@/components/random-background";
 
 export default async function Home() {
   const products = await stripe.products.list({
@@ -8,7 +9,7 @@ export default async function Home() {
 
   const backgroundUrl = "/background.jpg"; // ensure this exists in /public
   const gifUrl = "/center.gif";            // ensure this exists in /public
-
+  const pome = "/pomegranate.png";
   return (
     <>
       {/* Full-viewport background (ignores container due to fixed + inset-0) */}
@@ -30,6 +31,13 @@ export default async function Home() {
         />
       </div>
 
+        <RandomBackground
+          gifUrl={pome}
+          count={80}
+          floating ={true}
+          minSize={8}
+          maxSize={25}
+        />
       {/* Spacer so the document has height for the fixed layers to sit on */}
       <div className="h-screen" />
     </>
