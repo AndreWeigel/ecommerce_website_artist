@@ -145,7 +145,7 @@ export default function ContactPage() {
       >
         <h2 className="text-xl font-semibold mb-2">Studio Visits</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Visits are welcome by appointment. Let me know if you'd like to drop by the studio —  
+          Visits are welcome by appointment. Let me know if you{"'"}d like to drop by the studio —
           there’s always paint, coffee, and unfinished thoughts waiting.
         </p>
       </motion.section>
