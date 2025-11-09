@@ -99,7 +99,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="p-0 pt-3 text-base leading-relaxed text-muted-foreground">
               <p>
-                i don’t paint what i see, i paint what insists. a hand trembling in the air, a face that won’t leave, a fruit that almost sings.
+                i don’t paint what i see, i paint what insists. a hand trembling in the air, a face that won{"'"}t leave, a fruit that almost sings.
                 the colors are never quiet — they argue, they love, they survive.
                 i want my paintings to breathe like a confession and bite like a dream.
                 lately, i draw comics too, as if the brain were whispering to the paint: tell me another story.
@@ -160,7 +160,7 @@ export default function AboutPage() {
             <CardContent className="space-y-3 text-sm">
               <ul className="list-inside list-disc space-y-2 text-muted-foreground">
                 <li>
-                  "Edges Between Things," <em>Art Now</em>, 2025 — <a href="#" className="underline">read</a>
+                  {"'"}Edges Between Things,{"'"} <em>Art Now</em>, 2025 — <a href="#" className="underline">read</a>
                 </li>
                 <li>
                   Interview with Your Name, <em>Surface Magazine</em>, 2024 — <a href="#" className="underline">listen</a>
