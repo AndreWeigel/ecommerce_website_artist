@@ -28,7 +28,7 @@ export default function AboutPage() {
 
         <div className="flex gap-2">
           <Button asChild variant="default">
-            <a href="#contact" aria-label="Contact the artist">
+            <a href="/getintouch" aria-label="Contact the artist">
               <Mail className="mr-2 h-4 w-4" /> Contact
             </a>
           </Button>
@@ -208,31 +208,7 @@ export default function AboutPage() {
         </motion.div>
       </section>
 
-      {/* Contact */}
-      <section id="contact" className="mt-16">
-        <Card>
-          <CardContent className="flex flex-col items-center gap-4 p-6 text-center md:flex-row md:items-center md:justify-between md:text-left">
-            <div>
-              <h3 className="text-xl font-semibold">Available for exhibitions & collaborations</h3>
-              <p className="mt-1 max-w-2xl text-muted-foreground">
-                For inquiries, studio visits, or commissions, get in touch. I aim to reply within 2–3 days.
-              </p>
-            </div>
-            <div className="flex flex-wrap items-center gap-2">
-              <Button asChild>
-                <a href="mailto:joanapereiraseabra@gmail.com">
-                  <Mail className="mr-2 h-4 w-4" /> Email
-                </a>
-              </Button>
-              <Button asChild variant="secondary">
-                <a href="https://www.instagram.com/joanapse/" target="_blank" rel="noreferrer">
-                  <Instagram className="mr-2 h-4 w-4" /> Instagram
-                </a>
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </section>
+
     </main>
   );
 }
